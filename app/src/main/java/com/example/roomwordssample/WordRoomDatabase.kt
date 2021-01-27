@@ -12,7 +12,11 @@ import kotlinx.coroutines.launch
 @Database(entities = arrayOf(Word::class), version = 1, exportSchema = false)
 public abstract class WordRoomDatabase : RoomDatabase() {
 
-    abstract fun wordDao(): WordDao
+/*TODO: Die DAO-Funktion für die Word-Klasse muss noch angelegt werden
+
+
+*/
+
     private class WordDatabaseCallback(
         private val scope: CoroutineScope
     ) : RoomDatabase.Callback() {

@@ -8,6 +8,5 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "word_table")
 data class Word (
-    @PrimaryKey(autoGenerate = true) val uid: Int,
-    @ColumnInfo(name = "word") val word: String
+        /*TODO: Lege einen Autogenerierten Primärschlüssel uid von Typ Int an und einen value word von typ String*/
 )
